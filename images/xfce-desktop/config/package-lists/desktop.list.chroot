@@ -1,9 +1,5 @@
 task-xfce-desktop
 task-print-server
 
-plymouth
-plymouth-drm
-plymouth-x11
-
 #gstreamer-vaapi
 i965-va-driver
