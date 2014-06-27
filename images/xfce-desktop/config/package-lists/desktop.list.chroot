@@ -3,3 +3,15 @@ task-print-server
 
 #gstreamer-vaapi
 i965-va-driver
+
+firmware-linux
+firmware-linux-free
+firmware-linux-nonfree
+firmware-iwlwifi
+firmware-intelwimax
+firmware-ipw2x00
+firmware-brcm80211
+firmware-atheros
+firmware-ralink
+firmware-realtek
+firmware-qlogic
