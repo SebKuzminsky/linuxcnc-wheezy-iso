@@ -1,1 +1,1 @@
-deb http://linuxcnc.org/ wheezy base
+deb http://linuxcnc.org/ wheezy base 2.6
