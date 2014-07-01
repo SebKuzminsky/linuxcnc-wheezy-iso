@@ -21,8 +21,8 @@ lb config noauto \
 	--debian-installer live \
 	--linux-flavours "${_LINUX_FLAVOURS}" \
 	--linux-packages "linux-image linux-headers" \
-	--bootappend-live "boot=live config nosplash lapic" \
-	--bootappend-install "lapic" \
+	--bootappend-live "boot=live config nosplash lapic rootdelay=5" \
+	--bootappend-install "lapic rootdelay=5" \
 	--archive-areas "main contrib non-free" \
 	--source "${_SOURCE}" \
 "${@}"
