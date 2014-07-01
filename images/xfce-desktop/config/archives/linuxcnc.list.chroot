@@ -1,1 +1,2 @@
 deb http://linuxcnc.org/ wheezy base 2.6
+deb-src http://linuxcnc.org/ wheezy base 2.6
