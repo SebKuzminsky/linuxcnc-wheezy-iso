@@ -1,0 +1,8 @@
+#!/bin/bash
+date
+sudo lb clean
+sudo lb config
+sudo lb build
+scp *.zsync *.iso timeguy.com:timeguy
+ssh -t emcboard@www.linuxcnc.org 'cd www.linuxcnc.org; ~/zsync-0.6.2/zsync http://timeguy.com/binary.hybrid.iso.zsync; rm binary.hybrid.iso.zsync; wget http://timeguy.com/binary.hybrid.iso.zsync'
+date
