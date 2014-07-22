@@ -5,3 +5,7 @@ linuxcnc-dev
 linuxcnc-doc-en
 hostmot2-firmware-all
 update-notifier
+mesaflash
+debconf-utils
+truetype-tracer
+nopaste
