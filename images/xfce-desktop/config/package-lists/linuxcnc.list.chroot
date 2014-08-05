@@ -9,3 +9,5 @@ mesaflash
 debconf-utils
 truetype-tracer
 nopaste
+glade-gnome
+build-essential
