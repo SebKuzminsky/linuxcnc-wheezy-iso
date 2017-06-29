@@ -1,8 +1,8 @@
-deb http://linuxcnc.org/ wheezy base 2.6
-deb-src http://linuxcnc.org/ wheezy base 2.6
+deb http://linuxcnc.org/ wheezy base 2.7-rtai
+deb-src http://linuxcnc.org/ wheezy base 2.7-rtai
 
 #deb     http://buildbot.linuxcnc.org/ wheezy master-rt
 #deb-src http://buildbot.linuxcnc.org/ wheezy master-rt
 
-#deb     http://buildbot.linuxcnc.org/ wheezy 2.6-rt
-#deb-src http://buildbot.linuxcnc.org/ wheezy 2.6-rt
+#deb     http://buildbot.linuxcnc.org/ wheezy 2.7-rt
+#deb-src http://buildbot.linuxcnc.org/ wheezy 2.7-rt

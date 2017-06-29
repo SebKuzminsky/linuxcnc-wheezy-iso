@@ -10,7 +10,7 @@ case "$(dpkg --print-architecture)" in
 
 	i386)
 		_LINUX_FLAVOURS="3.4-9-rtai-686-pae"
-		_SOURCE="false"
+		_SOURCE="true"
 		;;
 esac
 
