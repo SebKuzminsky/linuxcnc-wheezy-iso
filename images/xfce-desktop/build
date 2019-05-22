@@ -1,9 +1,17 @@
 #!/bin/bash -xe
 umask 002
 date
-sudo lb clean
-sudo lb config
-sudo lb build
+sudo lb clean 
+sudo lb config 	--apt-options "--yes --force-yes -o Acquire::Check-Valid-Until=false" \
+				--updates false \
+				--security true\
+				--parent-mirror-bootstrap http://archive.debian.org/debian \
+				--parent-mirror-chroot-security http://archive.debian.org/debian-security \
+				--parent-mirror-binary-security http://archive.debian.org/debian-security \
+				--parent-mirror-debian-installer http://archive.debian.org/debian \
+				--parent-mirror-binary http://archive.debian.org/debian \
+				--mirror-bootstrap http://archive.debian.org/debian
+sudo lb build --verbose
 mv binary.hybrid.iso binary27.hybrid.iso
 mv binary.hybrid.iso.zsync binary27.hybrid.iso.zsync
 #scp *.zsync *.iso timeguy.com:timeguy
